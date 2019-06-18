@@ -1,4 +1,4 @@
-def prime? (numbers)
+def prime? (num)
 
 
 
