@@ -1,4 +1,7 @@
 def prime? (numbers)
-    (2..Math.sqrt(numbers)).each { |i| return false if numbers % i == 0}
-   true
+  if  (2..Math.sqrt(numbers)).each { |i| return false if numbers % i == 0}
+  true 
+else
+  false 
+
 end
